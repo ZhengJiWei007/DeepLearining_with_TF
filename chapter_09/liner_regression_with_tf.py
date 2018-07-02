@@ -3,7 +3,13 @@
 
 import tensorflow as tf
 import numpy as np
+import pandas as pd
 from sklearn.datasets import fetch_california_housing
+
+pd.set_option('display.max_columns',15)
+np.set_printoptions(suppress=True) #不显示科学技术发
+# plt.rcParams['font.sans-serif'] = ['SimHei']  # 中文字体设置
+# plt.rcParams['axes.unicode_minus'] = False
 
 housing = fetch_california_housing()
 m, n = housing.data.shape
