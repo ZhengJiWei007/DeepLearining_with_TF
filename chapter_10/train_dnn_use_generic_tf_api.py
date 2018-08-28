@@ -3,7 +3,6 @@
 	使用TensorFlow 普通API 训练DNN 识别手写数字
 '''
 from time import time
-import numpy as np
 import tensorflow as tf
 
 
